@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh; /* 设置最小高度为 100vh，确保填满整个视口高度 */
+    background-image: url('images/bronya.gif');
+    background-size: cover; /* 背景图覆盖整个页面 */
+    background-repeat: no-repeat; /* 不重复背景图 */
+    background-position: center; /* 背景图居中显示 */
+}
+
+.渐变色{
+
+    text-align: left;
+    background: linear-gradient(-45deg, rgb(16, 202, 57),rgb(0, 153, 255), hsl(61, 100%, 50%));
+    background-clip: text;
+    color: transparent;
+}
